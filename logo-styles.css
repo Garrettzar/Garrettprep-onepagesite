@@ -1,0 +1,15 @@
+.nav-logo {
+    font-size: var(--font-size-2xl);
+    font-weight: 900;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    transform: skewY(-2deg);
+    display: flex;
+    align-items: center;
+}
+
+.logo-image {
+    height: 50px;
+    width: auto;
+    object-fit: contain;
+}
