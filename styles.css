@@ -111,6 +111,14 @@ p {
     letter-spacing: -1px;
     text-transform: uppercase;
     transform: skewY(-2deg);
+    display: flex;
+    align-items: center;
+}
+
+.logo-image {
+    height: 50px;
+    width: auto;
+    object-fit: contain;
 }
 
 .logo-garrett {
@@ -804,6 +812,10 @@ section {
 
     .nav-logo {
         font-size: var(--font-size-lg);
+    }
+
+    .logo-image {
+        height: 40px;
     }
 
     .hero {
